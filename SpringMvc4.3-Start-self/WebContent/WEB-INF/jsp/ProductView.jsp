@@ -15,6 +15,9 @@
 		Product Name:${product.name}<br/>
 		Description:${product.description}<br/>
 		Price:￥${product.price}<br/>
+		Color:${product.color}<br/>
+		Number:${product.number}<br/>
 	</div>
+	<a href="/SpringMvc4.3-Start-self/index.html">返回</a>
 </body>
 </html>

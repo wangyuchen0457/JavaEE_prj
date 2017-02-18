@@ -6,8 +6,11 @@
 </head>
 <body>
 		<h1>Hello SpringMVC!</h1>
-		<a href="http://localhost:8080/SpringMvc4.3-Start-self/product_input.action"><input type="button" value="添加product"></a>
-		<a href=""><input type="button" value="显示"></a>
-		<form action="product_input.action"><input type="submit" value="查看"></form>
+		<form action="product_input.action"><input type="submit" value="添加"></form>
+		<form action="product_list.action"><input type="submit" value="查看列表"></form>
+		<form action="product_retrieve.action">
+		<input type="text" name="id" value="">
+		<input type="submit" value="查看">
+		</form>
 </body>
 </html>
