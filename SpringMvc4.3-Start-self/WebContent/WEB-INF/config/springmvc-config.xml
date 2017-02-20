@@ -15,11 +15,18 @@
 	<context:component-scan base-package="com.springmvc.controller" />
 	<context:component-scan base-package="com.springmvc.service.*" />
 	
+	<!-- 静态资源映射 -->
+	<mvc:resources mapping="/js/**" location="/WEB-INF/js/" />
+	<mvc:resources mapping="/css/**" location="/WEB-INF/css/" />
+	<mvc:resources mapping="/fonts/**" location="/WEB-INF/fonts/" />
+	<mvc:resources mapping="/plugins/**" location="/WEB-INF/plugins/" />
+	<mvc:resources mapping="images/**" location="/WEB-INF/images/" />
+	<mvc:resources location="/" mapping="/*.html" />
+	
 	<!-- <mvc:resources/>元素指定SpringMVC哪些静态资源需要单独处理(不经过dispatcher Servlet),
 	 如果没有<mvc:annotation-driven/>,<mvc:resources/> 元素会阻止任意控制器被调用,若不需要使用Resources,
 	 则不需要<mvc:annotation-driven/>元素 -->
 	<mvc:annotation-driven/>
-	<mvc:resources location="/" mapping="/*.html" />
 	<!-- 配置SpringMVC的视图解析器 -->
 	<!-- 视图解析器自动增加前缀和后缀 -->
 	<bean id="viewResolver"
