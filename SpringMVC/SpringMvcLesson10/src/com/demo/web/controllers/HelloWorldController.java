@@ -27,7 +27,7 @@ public class HelloWorldController extends BaseController {
 	@RequestMapping(value={"/index","/hello"})
     public ModelAndView index() throws SQLException{
 		
-		throw new SQLException("Êï∞ÊçÆÂ∫ìÂºÇÂ∏∏„ÄÇ");
+		throw new SQLException(" ˝æ›ø‚“Ï≥£°£");
 		
 		/*ModelAndView modelAndView = new ModelAndView();  
 		modelAndView.addObject("message", "Hello World!");  
