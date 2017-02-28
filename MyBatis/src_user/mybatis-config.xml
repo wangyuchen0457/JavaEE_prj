@@ -22,4 +22,7 @@
 <mappers>
 	<mapper resource="com/mybatis/model/User.xml" />
 </mappers>
+<!-- <mappers>
+	<mapper resource="com/mybatis/inter/IUserOperation.java" />
+</mappers> -->
 </configuration>
