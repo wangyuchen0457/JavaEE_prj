@@ -15,8 +15,6 @@
  */
 package org.apache.ibatis.jdbc;
 
-import org.apache.commons.lang.StringUtils;
-
 import org.apache.ibatis.io.ResolverUtil;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.mapping.BoundSql;

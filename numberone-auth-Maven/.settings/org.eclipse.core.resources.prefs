@@ -1,5 +1,11 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
+encoding//src/main/java/com/numberONe/shiro/ChainDefinitionSectionMetaSource.java=UTF-8
+encoding//src/main/java/com/numberONe/shiro/MyRealm.java=UTF-8
+encoding//src/main/java/com/numberONe/shiro/credentials/RetryLimitHashedCredentialsMatcher.java=UTF-8
+encoding//src/main/java/com/numberONe/shiro/filter/KickoutSessionControlFilter.java=UTF-8
+encoding//src/main/java/com/numberONe/shiro/filter/SysUserFilter.java=UTF-8
+encoding//src/main/java/com/numberONe/shiro/spring/SpringCacheManagerWrapper.java=UTF-8
+encoding//src/main/java/com/numberONe/task/SpringTaskController.java=UTF-8
 encoding//src/main/resources=UTF-8
 encoding//src/test/java=UTF-8
-encoding/<project>=UTF-8
